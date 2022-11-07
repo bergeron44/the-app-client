@@ -3,7 +3,7 @@ import axios from 'axios'
 
 export const setAllCompanys = () => async dispatch => {
     // do logic for getting to server side (axios.get('someurl)) // not relevant for this action
-    const companies = await axios.get(`http://localhost:3001/api/companys`)
+    const companies = await axios.get(`https://rightordrink-server.onrender.com/api/companys`)
    
     await dispatch({type:SET_ALLCOMPANYS_VALUE, payload: companies.data})
 }

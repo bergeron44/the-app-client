@@ -6,7 +6,7 @@ import{SET_USER_RIGHT_OR_WRONG} from '../constants/users'
 
 export const setLastUser = (user) => async dispatch => {
     // do logic for getting to server side (axios.get('someurl)) // not relevant for this action
-    const returnUser = await  axios.post(`http://localhost:3001/api/user/create`,user)
+    const returnUser = await  axios.post(`https://rightordrink-server.onrender.com/api/user/create`,user)
     await dispatch({type:GET_USER_VALUE, payload: returnUser.data})
     
 }
@@ -19,7 +19,7 @@ export const setIfUserRight = (ansStatus) => async dispatch => {
 }
 export const updateUserCode = (userId,newCode) => async dispatch => {
     // do logic for getting to server side (axios.get('someurl)) // not relevant for this action
-    const updateUser= await axios.post(`http://localhost:3001/api/user/${userId}/edit`,{
+    const updateUser= await axios.post(`https://rightordrink-server.onrender.com/api/user/${userId}/edit`,{
        code:newCode
     })
     await dispatch({type:GET_USER_VALUE, payload: updateUser.data})
