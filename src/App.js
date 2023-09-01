@@ -11,6 +11,7 @@ import NewCategoryPage from './pages/NewCategoryPage';
 import EnterUserName from './pages/EnterUserName';
 import NewQuestionPage from './pages/NewQuestionPage';
 
+//all i want
 function App() {
 return (
   
