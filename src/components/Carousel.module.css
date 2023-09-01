@@ -1,0 +1,53 @@
+
+.ci {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%; /* Adjusted height for mobile */
+  width: 80%; /* Adjusted width for mobile */
+  background-color: #d40808;
+  border: 5px solid #130303; /* Reduced border size for mobile */
+  border-radius: 50px; /* Adjusted radius for mobile */
+  margin: 20px auto; /* Centered horizontally with top margin */
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.img {
+  width: 100%;
+  height: auto; /* Allowing height to adjust based on image aspect ratio */
+  object-fit: contain;
+}
+
+.slick-center .ci {
+  transform: scale(1.05); /* Slightly larger scale for better visibility */
+}
+
+.card {
+  transition: all 0.3s;
+  box-shadow: 0 2px 4px 0 rgba(89, 219, 162, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19); /* Reduced box shadow for mobile */
+  width: 90%;
+  margin: 10px auto; /* Centered horizontally with smaller margins */
+  background-color: transparent;
+}
+
+/* .card:hover {
+  transform: scale(1.03); /* Slightly smaller scale on hover for mobile 
+} */
+
+.cbody {
+  padding: 10px; /* Reduced padding for mobile */
+}
+
+.ctitle {
+  font-size: 1rem; /* Smaller font size for mobile */
+  margin-bottom: 5px; /* Reduced margin for mobile */
+  color: #333;
+  background-color: aliceblue;
+}
+
+.ctext {
+  font-size: 0.875rem; /* Smaller font size for mobile */
+  color: #666;
+  background-color: aquamarine;
+}
