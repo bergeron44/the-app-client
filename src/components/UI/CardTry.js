@@ -26,9 +26,9 @@ const CardTry = (props) => {
   }
   return (
     // <div className={props.classes}>{props.children}</div>
-    <Card align='center' sx={{ minWidth: 275,width:'100%',height:h,backgroundColor:'gold',border:10,backgroundSize:'cover',backgroundImage:'url(https://th.bing.com/th/id/OIP.XjRgdPJnMHx11PavkfvqPQHaEK?pid=ImgDet&rs=1)' }}>
+    <Card align='center' sx={{ minWidth: 275,width:'100%',height:h,backgroundColor:'gold',border:10,backgroundSize:'cover',backgroundImage:'url(https://as2.ftcdn.net/v2/jpg/01/72/69/95/1000_F_172699521_5pf9N05r2UiunyN7ZnwjABaJsNLhtGmp.jpg)' }}>
     <CardContent sx={{height:h }} >
-      <Typography  sx={{ fontSize: 14 ,width:'70%' }} color="text.secondary" gutterBottom>
+      <Typography  sx={{ fontSize: 14 ,width:'70%' }} color="white" gutterBottom>
       {props.children}<br/>
       <img width='100%' src='https://th.bing.com/th/id/R.940aed1937543cea3803a7961d82cd3f?rik=lGhDQIx8%2bWqecQ&riu=http%3a%2f%2fwww.pewresearch.org%2fwp-content%2fuploads%2f2019%2f03%2fFT.19.03.05_drinkingReligiosity_featured.jpg&ehk=3BdiG9dAaDPAdYcQDPEOz9w%2byHnt%2fZxqEld2NWpMX9E%3d&risl=&pid=ImgRaw&r=0'/>
       </Typography>
@@ -37,7 +37,6 @@ const CardTry = (props) => {
       <Button size="large" variant="contained" onClick={instructionHandle}> עמוד הוראות </Button>
       </Typography><br/><br/>
       <Typography sx={{ mb: 1.5 }} color="text.secondary">
-     <h3> עמוד הבית</h3>
       </Typography>
       <Typography sx={{ mb: 1.5 }} color="text.secondary">
       <IconButtons/>

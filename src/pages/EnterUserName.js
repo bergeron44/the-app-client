@@ -46,10 +46,10 @@ import CardTry from '../components/UI/CardTry';
     <CardTry className={classes.input}>
     <form onSubmit={loginHandler}>
 
-     <label htmlFor='username'><h1><u>Enter User Name  </u>  </h1></label>
+     <label htmlFor='username'><h1>Enter  Name  </h1></label>
      <input   id="username" type="text" value={enterUserName} onChange={userNameChange}/><br/>
 
-     <label htmlFor='bar'><h1><u> הכנס את שם הבר  </u>  </h1></label>
+     <label htmlFor='bar'><h1> Enter Bar Name  </h1></label>
      <input   id="bar" type="text" value={enterBar} onChange={barChange}/><br/><br/>
 
      <Button type='submit'>   התחל את המשחק </Button>
