@@ -135,7 +135,7 @@ export default function ButtonBases() {
           key={image.title}
           style={{
             width: image.width,
-             height:h/4,
+             height:h/8,
           }}
           onClick={() =>{
             dispatch(setCategory(image.categoryObject))
