@@ -1,0 +1,22 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  body {
+    border: 10px double black; /* Double black border with 10px width */
+    box-sizing: border-box; /* Make sure the border width is included in the total width */
+    background-color: darkgray;
+  }
+  table{
+    border:'10px';
+  align-self:'center';
+  border: 10px double black; 
+  background-color: darkgoldenrod;
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  }
+  

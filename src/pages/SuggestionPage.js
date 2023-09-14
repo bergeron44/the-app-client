@@ -3,6 +3,7 @@ import ExempleSuggestionsComp from '../components/ExempleSuggestionsComp'
 import NewSuggestionPage from '../components/pgae with almog/NewSuggestionPage'
 import CardTwo from '../components/UI/CardTwo'
 import IconButton from '../components/UI/IconButton'
+import FlipCard from '../components/FlipCard'
 
 
 const SuggestionPage = () => {
@@ -14,6 +15,7 @@ const SuggestionPage = () => {
       <ExempleSuggestionsComp/>
        <IconButton/>
       </CardTwo>
+
     </div>
   )
 }
